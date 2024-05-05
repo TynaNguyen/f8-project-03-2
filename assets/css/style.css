@@ -1,0 +1,31 @@
+/* ============ common =========== */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    --primary-color: #2e80ce;
+    --secondary-color: #10375c;
+    --width: calc(100vw - 270px);
+}
+
+.content {
+    width: var(--width);
+    min-width: calc(100vw - 40px);
+    margin: auto;
+}
+
+.btn {
+    color: var(--primary-color);
+    color: #fff;
+    min-width: 205px;
+    padding: 15px 26px;
+    border-radius: 30px;
+}
+
+/* ============ header =========== */
